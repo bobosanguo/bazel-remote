@@ -1,4 +1,4 @@
-module github.com/buchgr/bazel-remote
+module github.com/bobosanguo/bazel-remote
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
