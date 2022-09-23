@@ -1121,3 +1121,14 @@ def go_dependencies():
         sum = "h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE=",
         version = "v0.0.0-20200804184101-5ec99f83aff1",
     )
+    
+    go_repository(
+        name = "com_github_google_skylark",
+        build_file_proto_mode = "disable_global",
+        importpath = "github.com/google/skylark",
+        sha256 = "401bbeea49fb3939c4a7246da4154d411d4612881b510657cae4a5bfa05f8c21",
+        strip_prefix = "github.com/google/skylark@v0.0.0-20181101142754-a5f7082aabed",
+        urls = [
+            "https://storage.googleapis.com/cockroach-godeps/gomod/github.com/google/skylark/com_github_google_skylark-v0.0.0-20181101142754-a5f7082aabed.zip",
+        ],
+    )
